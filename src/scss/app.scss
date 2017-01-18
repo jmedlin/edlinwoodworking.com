@@ -1,0 +1,13 @@
+@import 'vendor/meyer-reset';
+@import 'bourbon/bourbon';
+@import 'base/base';
+@import 'neat/neat';
+
+* {
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+}
+

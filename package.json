@@ -1,0 +1,14 @@
+{
+  "name": "edlinwoodworking.com",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Edlin <josh_edlin@b-f.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-15"
+  }
+}
