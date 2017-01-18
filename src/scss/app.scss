@@ -7,7 +7,47 @@
 	margin: 0;
 }
 
-html, body{
-	height: 100%;
+html{
+	background: url('/img/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
+div.outer-container{
+	@include outer-container;
+}
+
+div.inner-container{
+	background-color: rgba(0,0,0,0.4);
+	padding: 1em;
+	border-radius: 1em;
+	@include span-columns(10 of 12);
+	@include shift(1);
+	@include omega();
+	margin-top: 8em;
+}
+
+
+@include media($medium-screen-up){
+	div.inner-container{
+		padding: 2em;
+		border-radius: .5em;
+		@include span-columns(8 of 12);
+		@include shift(0);
+		@include omega();
+		margin-top: 2em;
+	}
+}
+
+@include media($large-screen-up){
+	div.inner-container{
+		padding: 2em;
+		border-radius: .5em;
+		@include span-columns(7 of 12);
+		@include shift(0);
+		@include omega();
+		margin-top: 2em;
+	}
+}
