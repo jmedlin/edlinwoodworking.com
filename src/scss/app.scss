@@ -27,6 +27,10 @@ div.inner-container{
 	@include shift(1);
 	@include omega();
 	margin-top: 8em;
+	h1{
+		font-size: 1.1em;
+		letter-spacing: 1px;
+	}
 }
 
 
@@ -35,9 +39,12 @@ div.inner-container{
 		padding: 2em;
 		border-radius: .5em;
 		@include span-columns(8 of 12);
-		@include shift(0);
+		@include shift(1);
 		@include omega();
-		margin-top: 2em;
+		margin-top: 6em;
+		h1{
+			font-size: 1.4em;
+		}
 	}
 }
 
@@ -46,8 +53,11 @@ div.inner-container{
 		padding: 2em;
 		border-radius: .5em;
 		@include span-columns(7 of 12);
-		@include shift(0);
+		@include shift(1);
 		@include omega();
-		margin-top: 2em;
+		margin-top: 8em;
+		h1{
+			font-size: 1.4em;		
+		}
 	}
 }
